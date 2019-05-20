@@ -1,0 +1,10 @@
+** Use it
+   #+begin_src bash
+   docker build -t hug.rest-py .
+   #+end_src
+** Run it
+   #+begin_src bash
+   docker run --rm -p3000:3000 hug.rest-py
+   #+end_src
+   navigate to http://localhost:3000
+ 
