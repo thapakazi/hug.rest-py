@@ -1,0 +1,2 @@
+# hug for simple rest api
+hug
