@@ -1,0 +1,10 @@
+[Unit]
+Description=Hug Rest Api
+
+[Service]
+Environment=APP_ROOT=/home/deploy/app
+ExecStart=${APP_ROOT}/venv/bin/hug -f ${APP_ROOT}/main.py -p 3000
+Restart=always
+
+[Install]
+WantedBy=default.target
